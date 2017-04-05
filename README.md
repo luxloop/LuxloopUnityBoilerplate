@@ -9,6 +9,12 @@ Make sure you have LFS installed (you only have to do this once per machine, not
 ## How to Use
 Once you clone this repo, rename the folder `LuxloopUnityBoilerplate` to whatever you want your project to be called and run `git remote rm origin` to remove the boilerplate repo. Don't forget to `git remote add` a remote later.
 
+Go to `Edit > Project Settings > Player` and change the `Product Name` to the name of your project.
+
+_(Optional) Finally, in the `Services` tab, create a new `Unity Project ID` for this project_
+
+
+
 ## Adding Filetypes to LFS
 Currently, LFS handles the following file extensions:
 * .jpg/.jpg
