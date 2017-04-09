@@ -1,0 +1,19 @@
+{
+  "folders":
+  [
+    {
+      "follow_symlinks": true,
+      "path": "Assets/Scripts",
+      "file_exclude_patterns": [
+          "*.meta",
+          "*.csproj",
+          "*.booproj",
+          "*.unityproj",
+          "*.sln",
+          "*.userprefs",
+          ".*"
+      ],
+    }
+  ],
+  "solution_file": "./LuxloopUnityBoilerplate.sln"
+}

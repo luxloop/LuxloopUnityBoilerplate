@@ -33,3 +33,5 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
+# SublimeText Workspace File
+*.sublime-workspace
