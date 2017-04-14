@@ -30,6 +30,8 @@ else
   sed -i "s/bundleIdentifier: com.Company.ProductName/bundleIdentifier: com.Company.$NEWNAME/g" "$PROJECT_FOLDER/ProjectSettings/ProjectSettings.asset"
   sed -i "s/metroPackageName: Luxloop_Boilerplate/metroPackageName: $NEWNAME/g" "$PROJECT_FOLDER/ProjectSettings/ProjectSettings.asset"
   sed -i "s/metroApplicationDescription: Luxloop_Boilerplate/metroApplicationDescription: $NEWNAME/g" "$PROJECT_FOLDER/ProjectSettings/ProjectSettings.asset"
+  sed -i "s/LuxloopUnityBoilerplate.sln/$NEWNAME.sln/g" "$PROJECT_FOLDER/LuxloopUnityBoilerPlate.sublime-project"
+  mv "$PROJECT_FOLDER/LuxloopUnityBoilerPlate.sublime-project" "$PROJECT_FOLDER/$NEWNAME.sublime-project"
   echo "Updated Project Settings"
 
   # Rename Project Folder:
