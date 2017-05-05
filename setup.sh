@@ -21,6 +21,9 @@ else
   echo "Not a git repo. Don't Forget to \"git --init\""
 fi
 
+rm README.md
+echo "Removed Boileplate Instructions (README.md)"
+
 if [ -z "$1" ]
   then
     echo "Please enter new project name as argument"
