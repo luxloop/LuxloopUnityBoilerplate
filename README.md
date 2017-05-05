@@ -30,6 +30,7 @@ Currently, LFS handles the following file extensions:
 * .m4a
 * .bin
 * .skp
+* .tga
 
 If you need to include a binary filetype that is not in the list above, make sure to run `git lfs track "*.xxx"` **before** you commit it to your repo.
 
